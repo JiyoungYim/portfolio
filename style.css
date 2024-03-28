@@ -1,0 +1,31 @@
+#grad {
+  background-image: linear-gradient(grey, yellow);
+} 
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #786F80;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.5rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: grid;
+  grid-gap: 1rem;
+  margin-top: 5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 50px;
+}
+
